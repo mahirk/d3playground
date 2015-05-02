@@ -11,10 +11,8 @@ playground for data visualization class
 userA userB timestamp interaction
 ````
 
-User names anonymize to protect users.
+User names anonymized to protect users.
 
-
--- All MT's removed (due to data duplication)
 
 ## Graph Format
 

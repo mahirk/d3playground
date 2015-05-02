@@ -1,7 +1,7 @@
 body {
   width: 100%;
   margin: 0;
-  background: url(http://subtlepatterns.com/patterns/paisley.png);
+  background: url(http://subtlepatterns.com/patterns/crossword.png);
 }
 
 .header {
@@ -32,4 +32,33 @@ body {
 .btn:hover {
   color: #333;
   border-color: #333;
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #666;
+  shape-rendering: crispEdges;
+}
+
+.viz {
+  margin-top: 5%;
+}
+
+.tweet {
+  fill: #4682B4;
+  fill-opacity: 0.5;
+}
+
+.MT {
+  fill: #FF0000;
+}
+
+.RT {
+  fill: #00FF00;
+}
+
+.RE {
+  fill: #0000FF;
 }
