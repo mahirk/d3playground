@@ -18,20 +18,39 @@ body {
   font-size: 2em;
 }
 
-.btn {
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.3);
-  margin-top: 10px;
-  display: inline-block;
-  border-radius: 5px;
-  border: 1px solid #fff;
-  text-decoration: none;
-  color: #fff;
+h1 {
+  font-family: 'Raleway';
+  text-align: center;
 }
 
-.btn:hover {
+button {
+  padding: 1% 2%;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #333;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+
+
+.legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;
+}
+
+.legend-items text {
+  margin: 10px;
+}
+
+button:hover {
   color: #333;
   border-color: #333;
+  background: rgba(200, 255, 255, 1);
 }
 
 
@@ -42,23 +61,28 @@ body {
   shape-rendering: crispEdges;
 }
 
-.viz {
-  margin-top: 5%;
+.chart {
+  margin-top: 2%;
+  font-family: 'Raleway';
 }
 
-.tweet {
-  fill: #4682B4;
+.op {
   fill-opacity: 0.5;
 }
 
-.MT {
-  fill: #FF0000;
+
+.MTtweet {
+  fill: #E74C3C;
 }
 
-.RT {
-  fill: #00FF00;
+.RTtweet {
+  fill: #27AE60;
 }
 
-.RE {
-  fill: #0000FF;
+.REtweet {
+  fill: #2980B9;
+}
+
+.tweetinfo {
+ fill: #000;
 }
