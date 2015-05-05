@@ -1,0 +1,114 @@
+body {
+  width: 100%;
+  margin: 0;
+  background: url(http://subtlepatterns.com/patterns/crossword.png);
+}
+
+.header {
+  height: 300px;
+  background: rgba(52, 73, 94, 0.8);
+  font-family:'Raleway';
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.projectname {
+  font-size: 2em;
+}
+
+h1 {
+  font-family: 'Raleway';
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-size: 12px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+button {
+  padding: 1% 2%;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #333;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+
+
+.legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;
+}
+
+.legend-items text {
+  margin: 10px;
+}
+
+button:hover {
+  color: #fff;
+  border-color: #333;
+  background: rgba(230, 126, 34, 0.6);
+
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #666;
+  shape-rendering: optimizeSpeed;
+}
+
+.chart {
+  margin-top: 2%;
+  font-family: 'Raleway';
+}
+
+.op {
+  fill-opacity: 0.7;
+}
+
+
+.MTtweet {
+  fill: #B30000;
+}
+
+.RTtweet {
+  fill: #7DBA3F;
+}
+
+.REtweet {
+  fill: #7D79B6;
+}
+
+.tweetinfo {
+ fill: #000;
+}
+
+.info {
+  fill: #2980B9;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.dataT {
+  fill: #fff;
+  stroke: #333;
+  stroke-width: 2;
+  stroke-opacity: 0.5;
+}
